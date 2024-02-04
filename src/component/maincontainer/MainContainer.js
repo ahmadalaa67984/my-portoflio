@@ -8,7 +8,7 @@ const MainContainer = () => {
       id: 1,
       name: 'IDEAS-STORE',
       img: 'https://images.unsplash.com/photo-1540200049848-d9813ea0e120?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      link:"https://sunny-fudge-ecec6c.netlify.app/",
+      link:"https://incomparable-zabaione-493778.netlify.app",
       text: `that is e-commerce website
        build by React js for selling ideas`,
     },
