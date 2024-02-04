@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/css/main.011a976f.css",
+    "main.js": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/js/main.21b24d3b.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/cover.jpg": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/media/cover.f86459172824f55bc139.jpg",
+    "static/media/fontawesome-webfont.eot": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/index.html",
+    "main.011a976f.css.map": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/css/main.011a976f.css.map",
+    "main.21b24d3b.js.map": "/%3Chttps://github.com/ahmadalaa67984/my-portoglio.git%3E/static/js/main.21b24d3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.011a976f.css",
+    "static/js/main.21b24d3b.js"
+  ]
+}
