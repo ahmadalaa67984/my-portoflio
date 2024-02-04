@@ -1,0 +1,113 @@
+.background {
+    height: 100vh;
+    /* background: #010c11; */
+    display: flex;
+}
+
+.contact-container {
+    background: #040c1d8c;  
+    border-radius: 30px;
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-container .center{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 600;
+    flex: 2;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+.contact-container .center .qoute{
+    font-size:15px;
+    font-weight: 400;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contact-container .center .qoute label
+{
+    display: block;
+}
+.contact-container .center .qoute input,textarea
+{
+    background: #7b97b11c;
+    padding: 2px 10px;
+    margin-top: 5px;
+    outline: #03315C;
+    border: 1px solid #03315C ;
+    border-radius: 4px;
+    color: aliceblue;
+}
+.contact-container .center .qoute textarea
+{
+    height: 50px;
+    width: 230px;
+}
+.contact-container .center .qoute button
+{
+    background-color: #03315C;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #03315C;
+    cursor: pointer;
+}
+.contact-container .footer{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.contact-container .header{
+    font-size: 40px;
+    color: aliceblue;
+    padding: 20px;
+    cursor: pointer;
+   justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.contact-container .header div{
+    width:200px;
+    text-align: center;
+}
+.contact-container .header .title{
+    font-size: 20px;
+    font-weight: 400;
+}
+.contact-container .fa-chevron-circle-down:hover {
+    color: #03315C;
+}
+.contact-container .fa-chevron-circle-up:hover {
+    color: #03315C;
+}
+.contact-container .center .qoute button:hover {
+    background-color: #193855;
+}
+.contact-container button:hover {
+    color: #03315C;
+}
+.contact-container .download-cv {
+    cursor:"pointer";
+    display: block;
+    margin: auto;
+    padding-top:10px ;
+}
+
+
+@media screen and (max-width:980px) {
+    .center {
+        flex-direction: column;
+    }
+}

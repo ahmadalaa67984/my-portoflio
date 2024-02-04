@@ -1,0 +1,80 @@
+.background {
+    height: 100vh;
+    /* background: #010c11; */
+    display: flex;
+}
+
+.overview-container {
+    background: #040c1d8c;  
+    border-radius: 30px;
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.overview-container .center{
+    color: aliceblue;
+    font-size: 80px;
+    font-weight: 600;
+    flex: 2;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.overview-container .center .item
+{
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+}
+.overview-container .footer{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.overview-container .header {
+    font-size: 40px;
+    color: aliceblue;
+    padding: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.overview-container .header div {
+    width: 200px;
+    text-align: center;
+}
+
+.overview-container .header .title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.overview-container .fa-chevron-circle-down:hover {
+    color: #03315C;
+}
+
+.overview-container .fa-chevron-circle-up:hover {
+    color: #03315C;
+}
+
+
+
+
+@media screen and (max-width:980px) {
+    .overview-container .center {
+        flex-direction: row;
+    }
+    .overview-container .item div
+    {
+        width: 100px !important;
+    }
+}

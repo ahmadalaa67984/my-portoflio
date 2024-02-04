@@ -1,0 +1,91 @@
+.skills-container {
+    height: 100vh;
+    display: flex;
+}
+
+.skills-container .center-container {
+    background: #040c1d8c;
+    border-radius: 30px;
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills-container .center-container .fa-chevron-left,
+.skills-container .center-container .fa-chevron-right {
+    font-size: 30px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.skills-container .center {
+    color: aliceblue;
+    font-size: 80px;
+    font-weight: 600;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.skills-container .footer {
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.skills-container .header {
+    font-size: 40px;
+    color: aliceblue;
+    padding: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.skills-container .header div {
+    width: 200px;
+    text-align: center;
+}
+
+.skills-container .header .title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.skills-container .fa-chevron-circle-down:hover {
+    color: #03315C;
+}
+
+.skills-container .fa-chevron-circle-up:hover {
+    color: #03315C;
+}
+
+
+.circ-caption{
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    font-weight: 400;
+}
+.circ-caption span{
+    padding-top: 10px;
+}
+@media screen and(max-width:920px){
+    .circ-caption{
+        flex-direction: column;
+    }
+}
