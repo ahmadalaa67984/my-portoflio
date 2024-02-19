@@ -14,6 +14,14 @@ const MainContainer = () => {
     },
     {
       id: 2,
+      name: 'connectIN',
+      img: 'https://images.unsplash.com/photo-1556155092-490a1ba16284?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link:"https://celadon-piroshki-58a9bd.netlify.app/",
+      text: `landing page with contact control page
+       you can visit by click free trial`,
+    },
+    {
+      id: 3,
       name: 'Wait for more in the future',
       img: '',
       text: 'i am currently working on more projects ',
@@ -64,12 +72,12 @@ const MainContainer = () => {
           </div>
           <div  className="project-container">
           <a style={{height:"100%",width:"100%",color:"white"}} href={slides[currentSlide].link}>
-            <div  className="overlay" style={{display: currentSlide === 1 ? "none" : "flex"}}>
+            <div  className="overlay" style={{display: currentSlide === 2 ? "none" : "flex"}}>
               <i  class="fa fa-sign-in" aria-hidden="true">
               </i>
             </div>
             </a>
-            <div className="img-container" style={{display: currentSlide === 1 ? "none" : "block"}}>
+            <div className="img-container" style={{display: currentSlide === 2 ? "none" : "block"}}>
               <img src={slides[currentSlide].img}></img>
             </div>
             <div className="title">
