@@ -1,0 +1,50 @@
+.background {
+    height: 100vh;
+    /* background: #010c11; */
+    display: flex;
+}
+
+.header-container {
+    background: #040c1d8c;  
+    border-radius: 30px;
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-container .center{
+    color: aliceblue;
+    font-size: 80px;
+    font-weight: 600;
+    flex: 2;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.header-container .center .qoute{
+    font-size:15px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.header-container .footer{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.header-container .fa-chevron-circle-down:hover{
+    color:#03315C;
+}
+
+
+
+
+@media screen and (max-width:980px) {
+    .center {
+        flex-direction: column;
+    }
+}
