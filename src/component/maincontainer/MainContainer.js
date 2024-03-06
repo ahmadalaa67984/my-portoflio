@@ -23,7 +23,7 @@ const MainContainer = () => {
     {
       id: 3,
       name: 'Trading corsa',
-      img: 'https://unsplash.com/photos/black-android-smartphone-on-brown-wooden-table-VP4WmibxvcY',
+      img: 'https://images.unsplash.com/photo-1583752028088-91e3e9880b46?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       link:"https://phenomenal-cendol-147ef9.netlify.app/",
       text: `website for trading market
       and provide you with trading courses`,
