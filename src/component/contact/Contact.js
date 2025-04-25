@@ -7,7 +7,7 @@ function Contact() {
   const downloadPDF = () => {
     // Replace 'your_pdf_file.pdf' with the path or URL to your PDF file
     const pdfUrl =
-      "https://drive.google.com/file/d/1B_X8pp4hmUYbg7knDLFgdWxzFW9mFsTR/view?usp=sharing";
+      "https://drive.google.com/file/d/16-aUHAV0tipdF2le0RvlAtFUIYsEgCpN/view?usp=sharing";
 
     const a = document.createElement("a");
     a.href = pdfUrl;
