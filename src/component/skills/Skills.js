@@ -10,7 +10,7 @@ import {
   faVuejs,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
-//vss
+
 const Skills = () => {
   const [progress, setProgress] = useState({
     css: 0,
@@ -73,7 +73,7 @@ const Skills = () => {
           <div>
             <i
               onClick={handlClickTop}
-              className="fa fa-chevron-circle-up"
+              class="fa fa-chevron-circle-up"
               aria-hidden="true"
             ></i>
           </div>
@@ -141,7 +141,7 @@ const Skills = () => {
             />
             <CircularProgress
               variant="determinate"
-              value={progress.react}
+              value={progress.rea}
               size={80}
             />
             <CircularProgress
@@ -219,7 +219,7 @@ const Skills = () => {
         <div className="footer">
           <i
             onClick={handlClickDown}
-            className="fa fa-chevron-circle-down"
+            class="fa fa-chevron-circle-down"
             aria-hidden="true"
           ></i>
         </div>
