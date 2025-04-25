@@ -10,7 +10,7 @@ import {
   faVuejs,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
-//vs
+//vss
 const Skills = () => {
   const [progress, setProgress] = useState({
     css: 0,
