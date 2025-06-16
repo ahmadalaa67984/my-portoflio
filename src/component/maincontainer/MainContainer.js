@@ -8,7 +8,7 @@ const MainContainer = () => {
       id: 4,
       name: "Growth-in",
       img: "https://plus.unsplash.com/premium_photo-1682309543429-6aaa6d792dae?q=80&w=2112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      link: "https://growthin.app/",
+      link: "https://growth-in.com",
       text: "A project management platform for agencies to manage operations, clients, and services efficiently.",
       techUsed: "Vue.js, PrimeVue, Pinia, Laravel, REST APIs",
     },
@@ -91,10 +91,21 @@ const MainContainer = () => {
           <div className="title">3</div>
         </div>
         <div className="projects-grid">
-          {slides.map((slide) => (
-            <div key={slide.id} className="project-container">
-              {slide.link && (
-                <a style={{ height: "100%", width: "100%", color: "white" }}>
+          {slides.map((slide) =>
+            slide.link ? (
+              <a
+                key={slide.id}
+                href={slide.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div className="project-container">
+                  {slide.img && (
+                    <div className="img-container">
+                      <img src={slide.img} alt={slide.name}></img>
+                    </div>
+                  )}
                   <div
                     className="overlay"
                     style={{ display: slide.img ? "flex" : "none" }}
@@ -114,22 +125,51 @@ const MainContainer = () => {
                       {slide.techUsed}
                     </div>
                   </div>
-                </a>
-              )}
-              {slide.img && (
-                <div className="img-container">
-                  <img src={slide.img} alt={slide.name}></img>
+                  <div className="title">
+                    {slide.name}
+                    <br />
+                    <span style={{ fontSize: "15px", color: "#c9cbcc" }}>
+                      {slide.text}
+                    </span>
+                  </div>
                 </div>
-              )}
-              <div className="title">
-                {slide.name}
-                <br />
-                <span style={{ fontSize: "15px", color: "#c9cbcc" }}>
-                  {slide.text}
-                </span>
+              </a>
+            ) : (
+              <div key={slide.id} className="project-container">
+                {slide.img && (
+                  <div className="img-container">
+                    <img src={slide.img} alt={slide.name}></img>
+                  </div>
+                )}
+                <div
+                  className="overlay"
+                  style={{ display: slide.img ? "flex" : "none" }}
+                >
+                  <div
+                    style={{
+                      marginTop: "10px",
+                      fontSize: "20px",
+                      color: "#ffff",
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                      padding: "20px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    {slide.techUsed}
+                  </div>
+                </div>
+                <div className="title">
+                  {slide.name}
+                  <br />
+                  <span style={{ fontSize: "15px", color: "#c9cbcc" }}>
+                    {slide.text}
+                  </span>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
         <div className="footer">
           <i
