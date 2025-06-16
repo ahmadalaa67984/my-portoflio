@@ -52,7 +52,7 @@ const MainContainer = () => {
       text: "A website for trading market insights and providing trading courses.",
       techUsed: "Vue.js, PHP Laravel",
     },
-    // {
+    /// {
     //   id: 7,
     //   name: "Wait for more in the future",
     //   img: "",
